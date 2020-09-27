@@ -6,6 +6,7 @@ public class Exercise8 {
         Scanner in = new Scanner(System.in);
         DecimalFormat decimalFormat = new DecimalFormat("0");
 
+
         System.out.print("Students : ");
         int students = in.nextInt();
         System.out.print("Teachers : ");
@@ -15,6 +16,7 @@ public class Exercise8 {
 
         int totalPassengers = students + teachers;
         int buses = totalPassengers / capacity;
+
         int overflow = totalPassengers % capacity;
 
         System.out.println("\n" + "Buses required      : " + decimalFormat.format(buses + 1));
