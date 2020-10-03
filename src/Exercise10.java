@@ -15,8 +15,8 @@ public class Exercise10 {
         double kelvin = ((fahrenheit - 32) * (5/9)) + 273.15;
         double celsius = kelvin - 273.15;
 
-        System.out.println("\nCelsius    : " + decimalFormat.format(celsius));
-        System.out.print("Kelvin     : " + decimalFormat.format(kelvin));
-
+        System.out.println("\nCelsius : " + decimalFormat.format(celsius));
+        System.out.println("Kelvin  : " + decimalFormat.format(kelvin));
+        in.close();
     }
 }

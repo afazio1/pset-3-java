@@ -22,7 +22,8 @@ public class Exercise7 {
 
         double biWeeklySalary = finalSalary / 24;
 
-        System.out.print("\n$" + decimalFormat.format(biWeeklySalary) + ".");
+        System.out.println("\n$" + decimalFormat.format(biWeeklySalary) + ".");
+        in.close();
 
     }
 }

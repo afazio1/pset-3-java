@@ -14,12 +14,12 @@ public class Exercise4 {
 
         System.out.print("Height : ");
         float height = (float) (in.nextFloat() * INCH_TO_CENTIMETER);
-        System.out.print("Width : ");
+        System.out.print("Width  : ");
         float width = (float) (in.nextFloat() * INCH_TO_CENTIMETER);
 
         float perimeter = (2 * height) + (2 * width);
 
-        System.out.print("\n" + decimalFormat.format(perimeter) + " centimeters.");
-
+        System.out.println("\n" + decimalFormat.format(perimeter) + " centimeters.");
+        in.close();
     }
 }

@@ -30,6 +30,7 @@ public class Exercise5 {
 
         double final_grade = homework_grade + quiz_grade + test_grade;
 
-        System.out.print("\n" + decimalFormat.format(final_grade) + "%.");
+        System.out.println("\n" + decimalFormat.format(final_grade) + "%.");
+        in.close();
     }
 }

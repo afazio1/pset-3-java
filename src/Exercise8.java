@@ -20,6 +20,7 @@ public class Exercise8 {
         int overflow = totalPassengers % capacity;
 
         System.out.println("\n" + "Buses required      : " + decimalFormat.format(buses + 1));
-        System.out.print("Overflow passengers : " + overflow);
+        System.out.println("Overflow passengers : " + overflow);
+        in.close();
     }
 }

@@ -30,6 +30,7 @@ public class Exercise6 {
                 + thursdayHours + fridayHours + saturdayHours + sundayHours;
 
         double weeklySalary = totalHours * hourlyWage;
-        System.out.print("\n$" + decimalFormat.format(weeklySalary) + ".");
+        System.out.println("\n$" + decimalFormat.format(weeklySalary) + ".");
+        in.close();
     }
 }
